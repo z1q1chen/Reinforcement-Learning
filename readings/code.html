@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0049)http://incompleteideas.net/book/code/code2nd.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <title>Code for Sutton &amp; Barto Book: Reinforcement Learning: An
+Introduction</title>
+</head>
+<body>
+<h1>Code for: </h1>
+<h3><a href="http://incompleteideas.net/book/the-book.html">Reinforcement Learning: An Introduction,
+2nd edition</a><br>
+by <a href="http://incompleteideas.net/index.html">Richard S. Sutton</a> and <a href="http://www-anw.cs.umass.edu/~barto/">Andrew G. Barto</a></h3>
+<hr>
+Below are links to a variety of software related to examples and
+exercises in the book. <br>
+<ul>
+  <li><a href="https://github.com/ShangtongZhang/reinforcement-learning-an-introduction">Re-implementations
+in Python by Shangtong Zhang</a></li>
+  <li><a href="https://github.com/Ju-jl/ReinforcementLearningAnIntroduction.jl">Re-implementations
+in julialang by Jun Tian</a></li>
+  <li><a href="http://incompleteideas.net/book/code/code.html">Original code for the first edition</a></li>
+  <li><a href="http://waxworksmath.com/Authors/N_Z/Sutton/sutton.html">Re-implementation
+of first edition code in Matlab by John Weatherwax</a><br>
+  </li>
+</ul>
+And below is some of the code that Rich used to generate the examples
+and
+figures in the 2nd edition (made available as is):<br>
+<ul>
+  <li>Chapter 1: Introduction
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/TTT.lisp">Tic-Tac-Toe Example (Lisp)</a>. <a href="http://incompleteideas.net/book/code/ttt.tar">In C</a>. </li>
+    </ul>
+  </li>
+  <li> Chapter 2: Multi-armed Bandits
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/testbed.lisp">10-armed Testbed Example, Figure
+2.12(Lisp)</a> </li>
+      <li> <a href="http://incompleteideas.net/book/code/softmax.lisp">Testbed with Softmax Action
+Selection, Exercise 2.2 (Lisp)</a> </li>
+      <li><a href="http://incompleteideas.net/book/code/optimistic.lisp">Optimistic Initial Values
+Example, Figure 2.3 (Lisp)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/UCB.lisp">UCB results, Figure 2.4 (Lisp)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/gradbandits.lisp">Gradient bandits, Figure 2.5 (Lisp)</a><br>
+      </li>
+      <li><a href="http://incompleteideas.net/book/code/summary.lisp">Parameter study of multiple
+algorithms, Figure 2.6 (Lisp)</a><br>
+      </li>
+    </ul>
+  </li>
+  <li> Chapter 3: Finite Markov Decision Processes
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/pole.c">Pole-Balancing Example, Example 3.4 (C)</a>
+      </li>
+      <li> <a href="http://incompleteideas.net/book/code/gridworld5x5.lisp">Gridworld Example 3.5 and 3.8,
+Code for
+Figures 3.2 and 3.5 (Lisp)</a> </li>
+    </ul>
+  </li>
+  <li> Chapter 4: Dynamic Programming
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/gridworld4x4.lisp">Policy Evaluation, Gridworld
+Example 4.1, Figure 4.1 (Lisp)</a> </li>
+      <li> <a href="http://incompleteideas.net/book/code/jacks.lisp">Policy Iteration, Jack's Car Rental
+Example, Figure 4.2 (Lisp)</a> </li>
+      <li> <a href="http://incompleteideas.net/book/code/gambler.lisp">Value Iteration, Gambler's Problem
+Example, Figure 4.3 (Lisp)</a> </li>
+    </ul>
+  </li>
+  <li> Chapter 5: Monte Carlo Methods
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/blackjack1.lisp">Monte Carlo Policy Evaluation,
+Blackjack Example 5.1, Figure 5.1 (Lisp)</a> </li>
+      <li> <a href="http://incompleteideas.net/book/code/blackjack2.lisp">Monte Carlo ES, Blackjack Example
+5.3, Figure 5.2 (Lisp)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/blackjack3-rollout-one-state.lisp">Blackjack
+estimate one state, Figure 5.3 (Lisp)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/InfinteVariance.lisp">Infinite variance Example 5.5,
+Figure 5.4 (Lisp)</a></li>
+    </ul>
+  </li>
+  <li> Chapter 6: Temporal-Difference Learning
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/walk.lisp">TD Prediction in Random Walk, Example
+6.2 (Lisp)</a> </li>
+      <li> <a href="http://incompleteideas.net/book/code/walk-batch.lisp">TD Prediction in Random Walk with
+Batch Training, Example 6.3, Figure 6.2 (Lisp)</a> </li>
+      <li> <a href="http://www.shef.ac.uk/~pc1jvs/reinforce_learn_demo.html"> TD
+Prediction in Random Walk (MatLab by Jim Stone)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/doubleQ.lisp">Double Q-learning</a> vs <a href="http://incompleteideas.net/book/code/singleQ.lisp">conventional Q-learning</a> Example 6.7, Figure
+6.5 (Lisp)<br>
+      </li>
+    </ul>
+  </li>
+  <li> Chapter 7: n-step Bootstrapping<br>
+    <ul>
+      <li> N-step TD on the Random Walk, Example 7.1, Figure 7.2: <a href="http://incompleteideas.net/book/code/online.lisp">online</a> and <a href="http://incompleteideas.net/book/code/offline.lisp">offline</a>
+(Lisp). <a href="http://incompleteideas.net/book/code/nstep-walk.tar">In C</a>. </li>
+    </ul>
+  </li>
+  <li> Chapter 8: Planning and Learning with Tabular Methods
+    <ul>
+      <li> <a href="http://incompleteideas.net/book/code/sampling2.lisp">Trajectory Sampling Experiment,
+Figure 8.8 (Lisp)</a> </li>
+    </ul>
+  </li>
+  <li> Chapter 9: On-policy Prediction with Approximation
+    <ul>
+      <li><a href="http://incompleteideas.net/book/code/aggreg-walknew.lisp">State Aggregation on the
+1000-state Random Walk, Figures 9.1, 9.2, and 9.5 (Lisp)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/generalization.lisp">Coarseness of Coarse Coding,
+Example 9.3, Figure 9.8 (Lisp)</a></li>
+      <li><a href="http://incompleteideas.net/book/code/FAwalknew.lisp">Why we use coarse coding, Figure
+9.15 (Lisp)</a></li>
+      <li>Tile Coding: <a href="http://incompleteideas.net/tiles/tiles3.html">tiles3.html</a><br>
+      </li>
+    </ul>
+  </li>
+  <li>Chapter 10: On-policy Control with Approximation</li>
+  <ul>
+    <li><a href="http://incompleteideas.net/MountainCar/MountainCar.html"> Linear
+Semi-gradient Sarsa(lambda) on the Mountain-Car, Figure 10.1</a></li>
+    <li>n-step Sarsa on Mountain Car, Figures 10.2-4 (<a href="http://incompleteideas.net/book/code/mcar-nstep.lisp">Lisp</a>) with <a href="http://incompleteideas.net/tiles/tiles3.html">tile coding</a><br>
+    </li>
+    <li>R-learning on Access-Control Queuing Task, Example 10.2,
+Figure 10.5 (<a href="http://incompleteideas.net/book/code/queuing.lisp">Lisp</a>), (<a href="http://incompleteideas.net/book/code/queuing.c">C
+version</a>)</li>
+  </ul>
+  <li>Chapter 11: Off-policy Methods with Approximation</li>
+  <ul>
+    <li>Baird Counterexample Results, Figures 11.2, 11.5, and 11.6 (<a href="http://incompleteideas.net/book/code/baird-continuing2.lisp">Lisp</a>)</li>
+  </ul>
+  <li>Chapter 12: Eligibility Traces</li>
+  <ul>
+    <li>Offline lambda-return results, Figure 12.3 (<a href="http://incompleteideas.net/book/code/offline.lisp">Lisp</a>)</li>
+    <li>TD(lambda) and true online TD(lambda) results, Figures 12.6 and
+12.8 (<a href="http://incompleteideas.net/book/code/online.lisp">Lisp</a>)</li>
+    <li>Sarsa(lambda) on Mountain Car (<a href="http://incompleteideas.net/book/code/mcar-sarsa-lambda.lisp">Lisp</a>)
+(Python: <a href="http://incompleteideas.net/book/code/mountaincar.py">MC</a>
+and <a href="http://incompleteideas.net/book/code/multstep-Sarsa.py">Sarsa</a>) with <a href="http://incompleteideas.net/tiles/tiles3.html">tile coding</a></li>
+  </ul>
+  <li>Chapter 13: Policy Gradient Methods (this code is available at <a href="https://github.com/gravesec/chapter_13_figures">github</a>)<br>
+  </li>
+  <ul>
+    <li><a href="http://incompleteideas.net/book/code/figure_13_1.py">Figure 13.1</a></li>
+    <li><a href="http://incompleteideas.net/book/code/figure_13_2.py">Figure 13.2</a></li>
+    <li><a href="http://incompleteideas.net/book/code/example_13_1.py">Example 13.1</a><br>
+    </li>
+  </ul>
+</ul>
+
+
+</body></html>
